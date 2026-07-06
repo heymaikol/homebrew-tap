@@ -1,9 +1,9 @@
 cask "network-doctor" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.1.0"
-  sha256 arm:   "96fdcf5d4783a899042b16698c2583c1e23b50cdf2a3dcbb39f89f0e30d7497a",
-         intel: "f56f20f639d175cba0ba007eaa1c2c405a5f28425cba76e05f51949d895d62bc"
+  version "1.2.0"
+  sha256 arm:   "d68395ebbcbd1c1a8f65330c6af689fb1fc13b7a9256925d67093263d3a9ee42",
+         intel: "d5d3b97294cdf79a4a1470cd823ab5939fc4bb29297443ba882b30a438b59687"
 
   url "https://github.com/mplaczek99/network-doctor/releases/download/v#{version}/network-doctor_#{version}_darwin_#{arch}"
   name "network-doctor"
