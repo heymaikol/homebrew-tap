@@ -1,8 +1,8 @@
 # homebrew-tap
 
-Homebrew tap for mplaczek99 tools.
+Homebrew tap for heymaikol tools.
 
 ```sh
-brew tap mplaczek99/tap
+brew tap heymaikol/tap
 brew install --cask network-doctor
 ```
